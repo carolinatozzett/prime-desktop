@@ -1,0 +1,56 @@
+
+
+body, h1, h2, p, nav {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    background-color: #f4f4f4; 
+}
+
+
+nav {
+    background-color: #d61616;
+    color: white; 
+    padding: 15px 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold; 
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+
+section {
+    margin: 20px 0;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.image-container div {
+    text-align: center; 
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px; 
+}
